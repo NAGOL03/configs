@@ -1,0 +1,6 @@
+theme = "github_dark_dimmed"
+[keys.insert]
+"S-ret" = ["goto_line_end", "move_char_right"]
+[editor]
+clipboard-provider = "x-clip"
+default-yank-register = "+"
