@@ -3,3 +3,8 @@ name = "c"
 file-types = ["c", "h"]
 indent = { tab-width = 4, unit = "    " }
 
+[[language]]
+name = "html"
+file-types = ["html"]
+indent = { tab-width = 4, unit = "t"}
+
