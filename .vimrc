@@ -11,6 +11,14 @@ Plug 'LunarWatcher/auto-pairs'
 
 Plug 'maxboisvert/vim-simple-complete'
 
+Plug 'prabirshrestha/vim-lsp'
+
+Plug 'prabirshrestha/asyncomplete.vim'
+
+Plug 'prabirshrestha/asyncomplete-lsp.vim'
+
+Plug 'mattn/vim-lsp-settings'
+
 call plug#end() " executes filetype plugin indent on and syntax enable
 
 " Abbreviations
@@ -29,6 +37,9 @@ augroup filetype_vimrc
 	autocmd!
 	autocmd BufReadPre *.vimrc echom 'Vim superiority!'
 augroup end
+
+" Commands
+command Config tabnew $MYVIMRC
 
 " Settings
 colorscheme ron
